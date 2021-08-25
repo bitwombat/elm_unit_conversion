@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'>
+  <title>Units</title>
+  <style>
+    .unit {
+      display: block
+    }
+    hr {
+        width: 100%;
+    }
+    #expression {
+      display: flex; flex-direction: row; align-items: center; padding: 20px; margin: 20px;}
+    .unit { width: 60px; margin: 20px;}
+    #expression input { border: none; width: 40px; background: #444}
+  </style>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="app.js"></script>
+  <script>
+    Elm.Units.init({node: document.getElementById("app")});
+  </script>
+</body>
+</html>

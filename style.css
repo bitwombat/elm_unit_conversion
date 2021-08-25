@@ -1,0 +1,10 @@
+.unit {
+display: block
+}
+hr {
+width: 100%;
+}
+#expression {
+display: flex; flex-direction: row; align-items: center; padding: 20px; margin: 20px;}
+.unit { width: 60px; margin: 20px;}
+#expression input { border: none; width: 40px; background: #444}
