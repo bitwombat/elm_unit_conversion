@@ -1,6 +1,6 @@
 module Tests exposing (tests)
 
-import Dict exposing (fromList)
+import Dict
 import Expect
 import Test exposing (..)
 import Units exposing (..)

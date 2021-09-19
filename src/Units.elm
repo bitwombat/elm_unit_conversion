@@ -68,7 +68,7 @@ cancelUnits n d =
 
 
 splitTest : Char -> Int -> Bool
-splitTest k v =
+splitTest _ v =
     v > 0
 
 
